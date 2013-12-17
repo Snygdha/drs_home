@@ -1,0 +1,168 @@
+/**
+ * @package Site Template
+ * @subpackage Crystalline
+ * @since Crystalline 1.0
+ * 
+ * High Resolution (Retina) Displays CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), 
+	only screen and (-moz-min-device-pixel-ratio: 1.5), 
+	only screen and (-o-min-device-pixel-ratio: 3/2), 
+	only screen and (min-device-pixel-ratio: 1.5) {
+	
+	ul.page-numbers a.next,
+	ul.page-numbers a.prev,
+	.project_navi a[rel="prev"],
+	.project_navi a[rel="next"] {
+		background-image:url(../../images/retina/arrow_content_slider@2x.png);
+		background-size:5px 44px; 
+	}
+	
+	.comment-reply-link span, 
+	.more_button span {
+		background-image:url(../../images/retina/arrow_more@2x.png);
+		background-size:21px 21px; 
+	}
+	
+	#bottom .more_button span {
+		background-image:url(../../images/retina/arrow_more_dark@2x.png);
+		background-size:21px 21px; 
+	}
+	
+	.dark #bottom .more_button span {
+		background-image:url(../../images/retina/arrow_more_dark_bot@2x.png);
+		background-size:21px 21px; 
+	}
+	
+	.dark #bottom .widget_custom_latest_projects_entries .more_button span, 
+	.dark #bottom .widget_custom_popular_projects_entries .more_button span {
+		background-image:url(../../images/retina/arrow_more_dark_bot_pj@2x.png);
+		background-size:21px 21px; 
+	}
+	
+	#bottom .widget_custom_latest_projects_entries .more_button span, 
+	#bottom .widget_custom_popular_projects_entries .more_button span {
+		background-image:url(../../images/retina/arrow_more_dark_pj@2x.png);
+		background-size:21px 21px; 
+	}
+	
+	.cmsms_content_prev_slide span,
+	.cmsms_content_next_slide span {
+		background-image:url(../../images/retina/arrow_nav@2x.png);
+		background-size:7px 56px;
+	}
+	
+	.pj_cat_filter.button span,
+	.pj_cat_filter.button_pf span,
+	.pj_sort a[name="pj_name"] span, 
+	.pj_sort a[name="pj_date"] span {
+		background-image:url(../../images/retina/arrow_sort@2x.png);
+		background-size:11px 34px;
+	}
+	
+	.widget_custom_recent_testimonials_entries .cmsms_content_prev_slide span,
+	.widget_custom_recent_testimonials_entries .cmsms_content_next_slide span {
+		background-image:url(../../images/retina/arrow_tl@2x.png);
+		background-size:23px 10px;
+	}
+	
+	.opened-article .project .pj_side_bar > div.pj_comments > .cmsms_details_links > a > span {
+		background-image:url(../../images/retina/comments@2x.png);
+		background-size:16px 13px;
+	}
+	
+	.cmsmsLike {
+		background-image:url(../../images/retina/heart@2x.png);
+		background-size:34px 34px;
+	}
+	
+	.icon_banner {
+		background-image:url(../../images/retina/icon_banner@2x.png);
+		background-size:41px 169px;
+	}
+	
+	.search_line input[type="submit"] {
+		background-image:url(../../images/retina/icon_search@2x.png);
+		background-size:17px 16px;
+	}
+	
+	#bottom .search_line input[type="submit"] {
+		background-image:url(../../images/retina/icon_search_dark@2x.png);
+		background-size:15px 16px;
+	}
+	
+	.cmsms_timeline li a,
+	div.jp-playlist li a {
+		background-image:url(../../images/retina/list_item@2x.png);
+		background-size:5px 5px;
+	}
+	
+	.cmsms_post_format_img {
+		background-image:url(../../images/retina/post_format@2x.png);
+		background-size:37px 272px;
+	}
+	
+	.cmsms-form-builder .check_parent input[type="radio"]+label:before,
+	.wpcf7 form.wpcf7-form span.wpcf7-list-item input[type="radio"] + span.wpcf7-list-item-label:before,
+	.wpcf7 form.wpcf7-form span.wpcf7-list-item input[type="radio"]:checked + span.wpcf7-list-item-label:before,
+	.cmsms-form-builder .check_parent input[type="radio"]:checked+label:before, 
+	.wpcf7 form.wpcf7-form span.wpcf7-list-item input[type="checkbox"] + span.wpcf7-list-item-label:before,
+	.cmsms-form-builder .check_parent input[type="checkbox"]+label:before,
+	.wpcf7 form.wpcf7-form span.wpcf7-list-item input[type="checkbox"]:checked + span.wpcf7-list-item-label:before,
+	.cmsms-form-builder .check_parent input[type="checkbox"]:checked+label:before {
+		background-image:url(../../images/retina/radio_check@2x.png);
+		background-size:19px 130px;
+	}
+	
+	#bottom .cmsms-form-builder .check_parent input[type="radio"] + label:before, 
+	#bottom .wpcf7 form.wpcf7-form span.wpcf7-list-item input[type="radio"] + span.wpcf7-list-item-label:before, 
+	#bottom .cmsms-form-builder .check_parent input[type="checkbox"] + label:before, 
+	#bottom .wpcf7 form.wpcf7-form span.wpcf7-list-item input[type="checkbox"] + span.wpcf7-list-item-label:before {
+		background-image:url(../../images/retina/radio_check_dark@2x.png);
+		background-size:19px 130px;
+	}
+	
+	.dark #bottom .cmsms-form-builder .check_parent input[type="radio"] + label:before, 
+	.dark #bottom .wpcf7 form.wpcf7-form span.wpcf7-list-item input[type="radio"] + span.wpcf7-list-item-label:before, 
+	.dark #bottom .cmsms-form-builder .check_parent input[type="checkbox"] + label:before, 
+	.dark #bottom .wpcf7 form.wpcf7-form span.wpcf7-list-item input[type="checkbox"] + span.wpcf7-list-item-label:before {
+		background-image:url(../../images/retina/radio_check_dark_bot@2x.png);
+		background-size:19px 130px;
+	}
+	
+	#slide_top {
+		background-image:url(../../images/retina/slide_up@2x.png);
+		background-size:35px 35px;
+	}
+	
+	.box.error_box tr td:first-child {
+		background-image:url(../../images/retina/error@2x.png); 
+		background-size:32px 32px; 
+	}
+
+	.box.success_box tr td:first-child {
+		background-image:url(../../images/retina/success@2x.png); 
+		background-size:32px 32px; 
+	}
+
+	.box.notice_box tr td:first-child {
+		background-image:url(../../images/retina/notice@2x.png); 
+		background-size:32px 32px; 
+	}
+
+	.box.warning_box tr td:first-child {
+		background-image:url(../../images/retina/warning@2x.png); 
+		background-size:32px 32px; 
+	}
+
+	.box.download_box tr td:first-child {
+		background-image:url(../../images/retina/download@2x.png); 
+		background-size:32px 32px; 
+	}
+	
+}
+

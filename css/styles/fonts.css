@@ -1,0 +1,578 @@
+/**
+ * @package Site Template
+ * @subpackage Crystalline
+ * @since Crystalline 1.0
+ * 
+ * Fonts & Colors Settings File
+ * Created by CMSMasters
+ * 
+ */
+
+ 
+/* ===================> Fonts <================== */
+
+
+/* ====> Content <==== */
+
+body {
+	font:13px/20px 'Droid Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+}
+
+ul li > *, 
+.post_type_shortcode .testimonial .tl-content_wrap .tl_company {
+	line-height:20px;
+}
+
+.widget ul li ul.sub-menu li, 
+.widget ul li ul.children li {line-height:32px;}
+
+.cmsms_comments,
+.button, 
+.button_pf, 
+.button_medium, 
+.button_large, 
+#cancel-comment-reply-link, 
+input[type="submit"] {
+	font-family:'Droid Sans',Arial,Helvetica,'Nimbus Sans L',sans-serif;
+}
+
+table.table th {
+	font-family:'Droid Sans',Arial,Helvetica,'Nimbus Sans L',sans-serif;
+    font-size:14px;
+    line-height:21px;
+}
+
+.cmsms_comments_wrap,
+.post .published,
+.cmsms_price_outer,
+.pricing_button,
+.comment-reply-link, 
+.more_button {
+	font-family:'Open Sans',Tahoma,Geneva,Kalimati,sans-serif;
+}
+
+
+/* ====> Links <==== */
+
+a {
+	font:13px/20px 'Droid Sans',Arial,Helvetica,'Nimbus Sans L',sans-serif;
+}
+
+/* ====> Navigation <==== */
+
+#navigation > li > a {
+	font:12px/20px 'Open Sans',Tahoma,Geneva,Kalimati,sans-serif;
+	text-transform:uppercase;
+}
+
+#navigation ul li a {
+	font:12px/20px 'Open Sans',Tahoma,Geneva,Kalimati,sans-serif;
+	text-transform:uppercase;
+}
+
+
+/* ====> Headings <==== */
+
+h1,
+h1 a,
+.logo .title, 
+.post .published .cmsms_day {
+	font:300 32px/48px 'Open Sans',Tahoma,Geneva,Kalimati,sans-serif;
+}
+
+.post .published .cmsms_day {
+	line-height:35px;
+}
+
+h2,
+h2 a,
+h3#reply-title, 
+.cmsms_sitemap > li > a {
+	font:300 24px/36px 'Open Sans',Tahoma,Geneva,Kalimati,sans-serif;
+}
+
+h3,
+h3 a,
+.colored_button {
+	font:300 22px/36px 'Open Sans',Tahoma,Geneva,Kalimati,sans-serif;
+}
+
+.colored_button {
+	line-height:40px;
+}
+
+h4,
+h4 a, 
+.cmsms_sitemap > li > ul > li > a,
+.cmsms_sitemap_category > li > a,
+#sidebar .widgettitle,
+#top_sidebar .widgettitle,
+#middle_sidebar .widgettitle {
+	font:300 18px/24px 'Open Sans',Tahoma,Geneva,Kalimati,sans-serif;
+}
+
+h5,
+h5 a,
+.post .published .cmsms_mon {
+	font:italic 16px/24px 'Open Sans',Tahoma,Geneva,Kalimati,sans-serif;
+}
+
+.post .published .cmsms_mon {
+	font-size:15px;
+	line-height:15px;
+	font-weight:300;
+	font-style:normal;
+}
+
+h6,
+h6 a,
+.logo .title_text, 
+.post .published .cmsms_year, 
+.post.format-quote .quote-author, 
+.more_button, 
+.comment-reply-link, 
+p.wp-caption-text, 
+.tour > li a,
+.tabs li a span,
+.tog,
+.project_navi > a, 
+.table th {
+	font:12px/18px 'Open Sans',Tahoma,Geneva,Kalimati,sans-serif;
+	text-transform:uppercase;
+}
+
+.post .published .cmsms_year {
+	line-height:12px;
+	font-weight:300;
+	font-style:normal;
+}
+
+.comment-reply-link, 
+.more_button {
+	line-height:24px;
+}
+
+
+/* ====> Other <==== */
+
+blockquote, 
+q, 
+.post.format-aside .entry-header .entry-content {
+	font:italic 16px/24px 'Open Sans',Tahoma,Geneva,Kalimati,sans-serif;
+}
+
+span.dropcap {
+	font:300 48px/48px 'Open Sans',Tahoma,Geneva,Kalimati,sans-serif;
+}
+
+span.dropcap2 {
+	font-family:'Open Sans',Tahoma,Geneva,Kalimati,sans-serif;
+	font-weight:300;
+	font-style:normal;
+}
+
+code {
+	font:13px/20px 'Droid Sans',Arial,Helvetica,'Nimbus Sans L',sans-serif;
+}
+
+small,
+small a,
+.widget_custom_recent_testimonials_entries blockquote, 
+.tweet_text,
+.tweet_text a,
+.cmsms_breadcrumbs,
+.cmsms_breadcrumbs a, 
+.cmsms_comments_wrap, 
+.cmsms_comments_wrap a, 
+.cmsms_category, 
+.cmsms_category a, 
+.user_name, 
+.user_name a {
+	font:12px/18px 'Droid Sans',Arial,Helvetica,'Nimbus Sans L',sans-serif;
+}
+
+input, 
+textarea, 
+select {
+	font:13px/20px 'Droid Sans',Arial,Helvetica,'Nimbus Sans L',sans-serif;
+}
+
+
+/* ===================> Colors <================== */
+
+
+/* ====> Content <==== */
+	
+body {
+	color:#777777;
+}
+
+/* ====> Links <==== */
+
+a, 
+.button_pf,
+.cmsmsLike:hover,
+.cmsmsLike.active,
+.cmsms_details_links a:hover, 
+ul.page-numbers span,
+ul.page-numbers a:hover, 
+ul.pj_filter_list li a, 
+div.jp-playlist li a.jp-playlist-current,
+.project .entry-title a:hover {
+	color:#212121;
+}
+
+a:hover, 
+.cmsmsLike, 
+.cmsms_details_links a, 
+ul.page-numbers a, 
+ul.pj_filter_list li.current a, 
+ul.pj_filter_list li a:hover, 
+.tabs > li a,
+.tour > li a,
+.related_posts_content h6 a,
+.post .entry-title a:hover, 
+div.jp-playlist li a, 
+.post .entry-header .atricle_box_inner .cmsms_comments:hover {
+	color:#939393;
+}
+
+.color_3 {
+	color:#313131;
+}
+
+/* ====> Navigation <==== */
+
+#navigation > li > a, 
+#navigation > li.current_page_item > a, 
+#navigation > li.current-menu-ancestor > a {
+	color:#212121;
+}
+
+#navigation > li:hover > a,
+#navigation > li > a:hover, 
+.dark #navigation > li.current_page_item > a, 
+.dark #navigation > li.current-menu-ancestor > a {
+	color:#ffffff;
+}
+
+#navigation ul li > a, 
+#navigation ul li.current_page_item > a, 
+#navigation ul li.current-menu-ancestor > a {
+	color:#212121;
+}
+
+#navigation ul li:hover > a {
+	color:#ffffff;
+}
+
+.logo .title {
+	color:#212121;
+}
+
+.logo .title_text {
+	color:#212121;
+}
+
+
+/* ====> Headings <==== */
+
+h1 {
+	color:#212121;
+}
+
+.error h1 {color:#ffffff;}
+
+h2,
+h3#reply-title, 
+.post .entry-title a, 
+.cmsms_price_outer span.cmsms_price, 
+.cmsms_price_outer span.cmsms_coins, 
+.cmsms_price_outer span.cmsms_currency {
+	color:#212121;
+}
+
+.error h2 {color:#ffffff;}
+
+h3 {
+	color:#212121;
+}
+
+h4,
+.project .entry-title a {
+	color:#212121;
+}
+
+h5 {
+	color:#212121;
+}
+
+h6,
+.more_button, 
+.comment-reply-link, 
+.post.format-quote .quote-author, 
+.tog,
+.accordion .tog,
+.tabs > li:first-child a, 
+.tabs li.current a, 
+.tabs.active li:first-child.current a, 
+.tour > li.current a,
+.related_posts > ul li a.button:hover, 
+.related_posts > ul li a.button.current, 
+.related_posts_content h6 a {
+	color:#212121;
+}
+
+
+/* ====> Other <==== */
+
+.headline, 
+.headline a, 
+.headline h1, 
+.headline h6, 
+.colored_banner *,
+.colored_banner h1,
+.colored_banner h2,
+.colored_banner h3,
+.colored_banner h4,
+.colored_banner h5,
+.colored_banner h6 {
+	color:#ffffff;
+}
+
+.color_2, 
+q, 
+blockquote, 
+.post.format-aside .entry-header .entry-content {
+	color:#777777;
+}
+
+span.dropcap {
+	color:#212121;
+}
+
+span.dropcap2, 
+.cmsms_details_links .button, 
+.cmsms_details_links .button:hover {
+	color:#ffffff;
+}
+
+code {
+	color:#777777;
+}
+
+small, 
+.tweet_text {
+	color:#777777;
+}
+
+input, 
+textarea, 
+select,
+select option {
+	color:#212121;
+}
+
+
+/* ====> Bottom Content <==== */
+
+#bottom, 
+#bottom small, 
+#bottom q, 
+#bottom blockquote, 
+#bottom .tweet_text {
+	color:#ffffff;
+}
+
+#bottom h1,
+#bottom h1 a,
+#bottom h2,
+#bottom h2 a,
+#bottom h3,
+#bottom h3 a,
+#bottom h4,
+#bottom h4 a,
+#bottom h5,
+#bottom h5 a,
+#bottom h6, 
+#bottom h6 a, 
+#bottom input[type="text"], 
+#bottom input[type="password"], 
+#bottom textarea, 
+#bottom select, 
+#bottom .color_3, 
+#bottom .more_button {
+	color:#ffffff;
+}
+
+#bottom a, 
+#bottom h1 a:hover, 
+#bottom h2 a:hover, 
+#bottom h3 a:hover, 
+#bottom h4 a:hover, 
+#bottom h5 a:hover, 
+#bottom h6 a:hover, 
+#bottom .more_button:hover {
+	color:#b0b0b0;
+}
+
+#bottom a:hover, 
+#bottom .tabs > li:first-child a, 
+#bottom .tabs li.current a, 
+#bottom .tabs.active li.current:first-child a {
+	color:#ffffff;
+}
+
+
+/* ====> Footer Content <==== */
+
+#footer {
+	color:#ffffff;
+}
+
+#footer a {
+	color:#b0b0b0;
+}
+
+#footer a:hover,
+#footer h1 a:hover, 
+#footer h2 a:hover, 
+#footer h3 a:hover, 
+#footer h4 a:hover, 
+#footer h5 a:hover, 
+#footer h6 a:hover {
+	color:#ffffff;
+}
+
+
+/* ===================> Backgrounds and Borders <================== */
+
+#navigation > li:hover > a > span.link_before, 
+#navigation > li > a:hover > span.link_before, 
+#navigation ul li:hover > a, 
+.percent_item_colored, 
+#slide_top,
+.table th, 
+span.dropcap2,
+icon_banner, 
+.more_button span, 
+.comment-reply-link span, 
+.cmsmsLike:hover,
+.cmsmsLike.active,
+.opened-article .project .pj_side_bar > div.pj_comments > .cmsms_details_links > a:hover > span, 
+.headline,
+.responsive_nav.active,
+.cmsms_post_format_img, 
+.boxed .error_inner, 
+.liquid .error_inner:before, 
+.cmsms_content_slider_parent ul.cmsms_slides_nav li.active a, 
+.cmsms_content_slider_parent ul.cmsms_slides_nav li:hover a {
+	background-color:#313131;
+}
+
+.dark .responsive_nav.active, 
+.dark #navigation > li:hover > a > span.link_before, 
+.dark #navigation > li > a:hover > span.link_before {
+	background-color:#ffffff;
+}
+
+#bottom .more_button span {
+	background-color:#ffffff;
+}
+
+.cmsmsLike, 
+.opened-article .project .pj_side_bar > div.pj_comments > .cmsms_details_links > a > span {background-color:#cccccc;}
+
+.more_button:hover span, 
+.comment-reply-link:hover span {
+	background-color:#939393;
+}
+
+#bottom .more_button:hover span {
+	background-color:#b0b0b0;
+}
+
+#navigation > li:hover > a > span.link_after,
+#navigation > li > a:hover > span.link_after, 
+code, 
+.cmsms_pricing_table {
+	border-top-color:#313131;
+}
+
+.dark #navigation > li:hover > a > span.link_after,
+.dark #navigation > li > a:hover > span.link_after {
+	border-top-color:#ffffff;
+}
+
+.responsive_nav.active,
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+textarea:focus, 
+.post.format-aside .entry-header .entry-content, 
+ul.pj_filter_list li.current a, 
+#slide_top:hover, 
+.tour > li:first-child, 
+.tour li.current, 
+.tour li:hover, 
+.tour.active li.current:first-child {
+	border-color:#313131;
+}
+
+.dark .responsive_nav.active {
+	border-color:#ffffff;
+}
+
+.boxed .error_inner, 
+.liquid .error_inner:before {
+	background-color:#ffc900;
+	background-image:url(../../images/img/services-bg.png);
+}
+
+
+/* ---------- Small Tablet & Mobile (Note: Design for a width less than 768px) ---------- */
+
+@media only screen and (max-width: 767px) {
+	
+	#navigation ul li a {
+		line-height:20px;
+	}
+	
+	.dark #navigation > li > a {
+		color:#212121;
+	}
+	
+	#navigation > li.current_page_item:hover > a, 
+	#navigation > li.current-menu-ancestor:hover > a, 
+	#navigation > li.current_page_item > a:hover, 
+	#navigation > li.current-menu-ancestor > a:hover, 
+	#navigation > li:hover > a,
+	#navigation > li > a:hover, 
+	.dark #navigation > li.current_page_item:hover > a, 
+	.dark #navigation > li.current-menu-ancestor:hover > a, 
+	.dark #navigation > li.current_page_item > a:hover, 
+	.dark #navigation > li.current-menu-ancestor > a:hover {
+		color:#ffffff;
+	}
+	
+	#navigation > li.current_page_item:hover > a, 
+	#navigation > li.current-menu-ancestor:hover > a, 
+	#navigation > li.current_page_item > a:hover, 
+	#navigation > li.current-menu-ancestor > a:hover, 
+	#navigation > li:hover > a,
+	#navigation > li > a:hover {
+		background-color:#313131;
+	}
+	
+}
+
+
+/* ---------- Mobile (Note: Design for a width less than 541px) ---------- */
+
+@media only screen and (max-width: 540px) {
+	
+	.responsiveSlider h1 {
+		font-size:12px;
+		line-height:18px;
+	}
+}
+
