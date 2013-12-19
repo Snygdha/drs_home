@@ -253,7 +253,10 @@ div.jp-playlist li a,
 #navigation > li > a:hover, 
 .dark #navigation > li.current_page_item > a, 
 .dark #navigation > li.current-menu-ancestor > a {
-	color:#ffffff;
+	color:#2E9AFE;
+	font-weight: bolder;
+	text-shadow: 5px 5px 5px lightgrey;
+	
 }
 
 #navigation ul li > a, 
